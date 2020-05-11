@@ -30,20 +30,20 @@
   *	Saves output to csv file with columns = [Index, Feature value, Probability of DN Stage > 3]
   *	In this implementation the features under analysis are Normalized Edge Length Std. Dev., Degrees Per Node, Average Eccentricity,        Glomerular Area, Number of Nuclei, and combination of Average Eccentricity and Normalized Edge Length Std. Dev. 
     
-  •	**NumberCombinations.R**
-    -	Used to show the influence of number of total models to search given a certain number of features.  
-    -	First figure is a scatterplot for the number of total models vs. number of features and the ratio of number of total models and       number of nodes
-    -	Second figure is the changing ratio between the number of total models and the number of models for each node with examples for 1-      4 nodes.
+*	**NumberCombinations.R**
+  *	Used to show the influence of number of total models to search given a certain number of features.  
+  *	First figure is a scatterplot for the number of total models vs. number of features and the ratio of number of total models and       number of nodes
+  *	Second figure is the changing ratio between the number of total models and the number of models for each node with examples for 1-      4 nodes.
     
-  •	**Scalability_test.R**
-    -	This script examines the influence of sample size on classification performance using Bayesian Networks.  
-    -	It iteratively increases the number of samples randomly selected from the whole dataset and fits a network using that subset.  It     then uses a test set to determine the Mean Square Error (MSE) and Absolute Error (AE).
+*	**Scalability_test.R**
+  *	This script examines the influence of sample size on classification performance using Bayesian Networks.  
+  *	It iteratively increases the number of samples randomly selected from the whole dataset and fits a network using that subset.  It     then uses a test set to determine the Mean Square Error (MSE) and Absolute Error (AE).
     
-  •	**Inst_Compare.R**
-    -	This script was used to examine the differences in the Bayesian Networks constructed using data from 4 different institutions.
-    -	If you have multi-institutional data, change the n_inst variable to the number you are working with and it will prompt you to         select the files containing that institution’s whole dataset.
+*	**Inst_Compare.R**
+  *	This script was used to examine the differences in the Bayesian Networks constructed using data from 4 different institutions.
+  *	If you have multi-institutional data, change the n_inst variable to the number you are working with and it will prompt you to         select the files containing that institution’s whole dataset.
     
-  •	**Gen_Feature_combos.R**
-    -	Using this script, you can change how you search for the ideal model by trimming the feature set down to a smaller subset and         testing that one for how it performs in a classification task.
-    -	This script iterates through the different possible combinations of these features and constructs networks for each one so the          longer your trimmed list of features is, the longer it will take to run.
-    -	This script also includes interactive viewing of the trimmed network using ‘bnviewer.’
+*	**Gen_Feature_combos.R**
+  *	Using this script, you can change how you search for the ideal model by trimming the feature set down to a smaller subset and         testing that one for how it performs in a classification task.
+  *	This script iterates through the different possible combinations of these features and constructs networks for each one so the          longer your trimmed list of features is, the longer it will take to run.
+  *	This script also includes interactive viewing of the trimmed network using ‘bnviewer.’
