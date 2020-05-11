@@ -14,8 +14,13 @@
 
 **Bayesian Network Analysis codes: All implemented in R using ‘bnlearn’ package for learning Bayesian Networks and modeling feature #relationships.**
 
+* Item 1
+* Item 2
+  * Item 2a
+  * Item 2b
+
   •	**ProbPerStage.R**
-      *	Using logic-sampling to generate probability of DN stage membership for a given set of samples
+   *	Using logic-sampling to generate probability of DN stage membership for a given set of samples
       *	In this current implementation, ‘test_node_data_df’ is corresponding to 10% of the current full dataset but if you have specific        images you want to test:
         *	Run feature extraction on folder with those specific images.
         *	Comment out line 28
