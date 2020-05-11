@@ -31,13 +31,13 @@
   *	In this implementation the features under analysis are Normalized Edge Length Std. Dev., Degrees Per Node, Average Eccentricity,        Glomerular Area, Number of Nuclei, and combination of Average Eccentricity and Normalized Edge Length Std. Dev. 
     
 *	**NumberCombinations.R**
-  *	Used to show the influence of number of total models to search given a certain number of features.  
-  *	First figure is a scatterplot for the number of total models vs. number of features and the ratio of number of total models and       number of nodes
-  *	Second figure is the changing ratio between the number of total models and the number of models for each node with examples for 1-      4 nodes.
+   *	Used to show the influence of number of total models to search given a certain number of features.  
+   *	First figure is a scatterplot for the number of total models vs. number of features and the ratio of number of total models and       number of nodes
+   *	Second figure is the changing ratio between the number of total models and the number of models for each node with examples for 1-      4 nodes.
     
 *	**Scalability_test.R**
-  *	This script examines the influence of sample size on classification performance using Bayesian Networks.  
-  *	It iteratively increases the number of samples randomly selected from the whole dataset and fits a network using that subset.  It     then uses a test set to determine the Mean Square Error (MSE) and Absolute Error (AE).
+ *	This script examines the influence of sample size on classification performance using Bayesian Networks.  
+ *	It iteratively increases the number of samples randomly selected from the whole dataset and fits a network using that subset.  It     then uses a test set to determine the Mean Square Error (MSE) and Absolute Error (AE).
     
 *	**Inst_Compare.R**
   *	This script was used to examine the differences in the Bayesian Networks constructed using data from 4 different institutions.
