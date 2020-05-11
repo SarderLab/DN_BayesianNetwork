@@ -38,12 +38,12 @@
 * **Scalability_test.R**
   * This script examines the influence of sample size on classification performance using Bayesian Networks.
   * It iteratively increases the number of samples randomly selected from the whole dataset and fits a network using that subset.  It     then uses a test set to determine the Mean Square Error (MSE) and Absolute Error (AE).
-    
-*	**Inst_Compare.R**
-  *	This script was used to examine the differences in the Bayesian Networks constructed using data from 4 different institutions.
-  *	If you have multi-institutional data, change the n_inst variable to the number you are working with and it will prompt you to         select the files containing that institution’s whole dataset.
-    
-*	**Gen_Feature_combos.R**
-  *	Using this script, you can change how you search for the ideal model by trimming the feature set down to a smaller subset and         testing that one for how it performs in a classification task.
-  *	This script iterates through the different possible combinations of these features and constructs networks for each one so the          longer your trimmed list of features is, the longer it will take to run.
-  *	This script also includes interactive viewing of the trimmed network using ‘bnviewer.’
+
+* **Inst_Compare.R**
+  * This script was used to examine the differences in the Bayesian Networks constructed using data from 4 different institutions.
+  * If you have multi-institutional data, change the n_inst variable to the number you are working with and it will prompt you to         select the files containing that institution’s whole dataset.
+
+* **Gen_Feature_combos.R** 
+  * Using this script, you can change how you search for the ideal model by trimming the feature set down to a smaller subset and         testing that one for how it performs in a classification task.
+  * This script iterates through the different possible combinations of these features and constructs networks for each one so the          longer your trimmed list of features is, the longer it will take to run.
+  * This script also includes interactive viewing of the trimmed network using ‘bnviewer.’
