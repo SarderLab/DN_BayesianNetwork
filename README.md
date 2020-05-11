@@ -14,10 +14,7 @@
 
 **Bayesian Network Analysis codes: All implemented in R using ‘bnlearn’ package for learning Bayesian Networks and modeling feature #relationships.**
 
-* Item 1
-* Item 2
-  * Item 2a
-  * Item 2b
+
 
 * **ProbPerStage.R**
   * Using logic-sampling to generate probability of DN stage membership for a given set of samples
@@ -27,11 +24,11 @@
     *	Replace with test_node_data_df = read.csv(‘your_filename.csv’)
   *	Output is csv file with columns = [Index, DN_Stage, Probability (DN_Stage of that sample is <= that DN_Stage, Sample Image ID]
     
-  •	**ConditionalProbabilities.R**
-    -	Illustrating the influence of different feature values on the probability of higher DN stages.
-    -	Uses fit Bayesian network of whole dataset
-    -	Saves output to csv file with columns = [Index, Feature value, Probability of DN Stage > 3]
-    -	In this implementation the features under analysis are Normalized Edge Length Std. Dev., Degrees Per Node, Average Eccentricity,        Glomerular Area, Number of Nuclei, and combination of Average Eccentricity and Normalized Edge Length Std. Dev. 
+ * **ConditionalProbabilities.R**
+  *	Illustrating the influence of different feature values on the probability of higher DN stages.
+  *	Uses fit Bayesian network of whole dataset
+  *	Saves output to csv file with columns = [Index, Feature value, Probability of DN Stage > 3]
+  *	In this implementation the features under analysis are Normalized Edge Length Std. Dev., Degrees Per Node, Average Eccentricity,        Glomerular Area, Number of Nuclei, and combination of Average Eccentricity and Normalized Edge Length Std. Dev. 
     
   •	**NumberCombinations.R**
     -	Used to show the influence of number of total models to search given a certain number of features.  
