@@ -31,7 +31,7 @@
   * In this implementation the features under analysis are Normalized Edge Length Std. Dev., Degrees Per Node, Average Eccentricity,        Glomerular Area, Number of Nuclei, and combination of Average Eccentricity and Normalized Edge Length Std. Dev. 
     
 *	**NumberCombinations.R**
-  *	Used to show the influence of number of total models to search given a certain number of features.  
+ * Used to show the influence of number of total models to search given a certain number of features.  
   *	First figure is a scatterplot for the number of total models vs. number of features and the ratio of number of total models and       number of nodes
   *	Second figure is the changing ratio between the number of total models and the number of models for each node with examples for 1-      4 nodes.
     
