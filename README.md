@@ -24,7 +24,7 @@
     *	Replace with test_node_data_df = read.csv(‘your_filename.csv’)
   *	Output is csv file with columns = [Index, DN_Stage, Probability (DN_Stage of that sample is <= that DN_Stage, Sample Image ID]
     
- * **ConditionalProbabilities.R**
+* **ConditionalProbabilities.R**
   *	Illustrating the influence of different feature values on the probability of higher DN stages.
   *	Uses fit Bayesian network of whole dataset
   *	Saves output to csv file with columns = [Index, Feature value, Probability of DN Stage > 3]
